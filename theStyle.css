@@ -1,0 +1,214 @@
+body {
+    background-color: white;
+}
+
+#leftEye{
+
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 50px;
+  top:-130%;
+  left: -10%;
+
+
+}
+#rightEye{
+
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 50px;
+  top:-130%;
+  left: 72%;
+
+
+}
+
+button {
+    padding: 6vw;
+    border: solid 3px;
+    margin: 6vw;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+#theNose {
+
+    position: absolute;
+    background: #fab976;
+    border-radius: 30%;
+    width: 60px;
+    height: 40px;
+    top: -80%;
+    right: 36%;
+    z-index: 110;
+  }
+
+  #mouth {
+    position: absolute;
+    background-color: black;
+    width: 120px;
+    height: 10px;
+    border-radius: 10px 10px 200px 200px;
+    top: -70px;
+    left: 70px;
+  }
+
+
+
+#theFace {
+    position: absolute;
+  background: #efdebf;
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+  top: 20%;
+  left: 35%;
+
+
+  z-index: 105;
+  }
+
+  #theNeck{
+   position: absolute;
+   background: #efdebf;
+   border-radius: 20px;
+   width: 250px;
+   height: 200px;
+   top: 90%;
+   left: 25%;
+  }
+  /*
+  #theNeckShadow{
+   position: absolute;
+   background: #fab976;
+   border-radius: 300px;
+   width: 250px;
+   height: 100px;
+   top: 80%;
+   left: 50%;
+
+  }
+  */
+  #rightGlass{
+    position: absolute;
+    border-radius: 20%;
+    top:-140%;
+    left: 60%;
+    z-index: 110;
+    width: 150px;
+    height: 90px;
+    border: 10px solid black;
+
+  }
+  #leftGlass{
+    position: absolute;
+    border-radius: 20%;
+    top:-140%;
+    left: -25%;
+    z-index: 110;
+    width: 150px;
+    height: 90px;
+    border: 10px solid black;
+
+  }
+  #theHair{
+    position: absolute;
+    background: black;
+    border-radius: 280px;
+    width: 600px;
+    height: 900px;
+    top: 10%;
+    left: 32.5%;
+  }
+  #leftBang{
+    position: absolute;
+    background: black;
+    border-radius: 400px;
+    width: 260px;
+    height: 90px;
+    top: -230%;
+    left: 52%;
+    transform: rotate(25deg);
+  }
+  #rightBang{
+    position: absolute;
+    background: black;
+    border-radius: 100px;
+    width: 300px;
+    height: 90px;
+    top: -230%;
+    left: -59%;
+    transform: rotate(-25deg);
+  }
+  #leftEyebrow{
+    position: absolute;
+    background: black;
+    border-radius: 70px;
+    width: 130px;
+    height: 15px;
+    top: -160%;
+    left: -20%;
+    transform: rotate(-3deg);
+  }
+  #rightEyebrow{
+    position: absolute;
+    background: black;
+    border-radius: 70px;
+    width: 130px;
+    height: 15px;
+    top: -160%;
+    left: 65%;
+    transform: rotate(3deg);
+  }
+  #glassFrameLeft {
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 10px;
+    border-radius: 20px;
+    top: -240px;
+    left: -125px;
+  }
+  #glassFrameRight {
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 10px;
+    border-radius: 20px;
+    top: -240px;
+    left: 310px;
+  }
+  #glassFrameMiddle {
+    position: absolute;
+    background-color: black;
+    width: 58px;
+    height: 10px;
+    border-radius: 20px;
+    top: -240px;
+    left: 100px;
+  }
+  #leftPupil {
+    position: absolute;
+    background: #876600;
+    border-radius: 50%;
+    width: 40px;
+    height: 45px;
+    top:-129%;
+    left: 3%;
+  }
+  #rightPupil {
+    position: absolute;
+    background: #876600;
+    border-radius: 50%;
+    width: 40px;
+    height: 45px;
+    top:-129%;
+    left: 83%;
+  }
