@@ -14,6 +14,3 @@ function arrows(order) {
 	if(pasito == 4){
 		location.href ="MidtermPage2.html";
 }
-window.onload = function() {
-    document.getElementById("my_audio").play();
-}
