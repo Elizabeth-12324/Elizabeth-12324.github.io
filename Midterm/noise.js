@@ -1,5 +1,5 @@
 //¿Que me ves? Largo, shoo!
-var puzzle = 0;
+var pasito = 0;
 var nomeveas = "MidtermPage2.html"
 //var bipbip = new Audio('images/hmm.mp3');
 var bipbip = new Audio('chime.mp3');
