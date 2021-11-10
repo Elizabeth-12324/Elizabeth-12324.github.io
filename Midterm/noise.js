@@ -1,5 +1,5 @@
 //¿Que me ves? Largo, shoo!
-var pasito = 0;
+var puzzle = 0;
 var nomeveas = "MidtermPage2.html"
 //var bipbip = new Audio('images/hmm.mp3');
 var bipbip = new Audio('chime.mp3');
@@ -8,13 +8,11 @@ var ufail=new Audio('error.mp3');
 function puzzle(orden) {
 	if (orden == ++puzzle){
 		puzzle = orden;
-		bipbip.volume = 0.1;
 		bipbip.play();
 		//alert("Ok! " + orden);
 	} else {
 		//alert("Err!");
 		puzzle = 0;
-		ufail.volume = 0.1;
 		ufail.play();
 	}
 	if(puzzle ==3){
