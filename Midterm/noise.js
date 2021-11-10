@@ -1,16 +1,44 @@
-
 //¿Que me ves? Largo, shoo!
 var pasito = 0;
-function arrows(order) {
-	if (order == ++pasito){
-		pasito = order;
-
+var nomeveas = "MidtermPage2.html"
+//var bipbip = new Audio('images/hmm.mp3');
+var bipbip = new Audio('chime.mp3');
+//var ufail = new Audio('images/err.mp3');
+var ufail=new Audio('error.mp3');
+function puzzle(orden) {
+	if (orden == ++puzzle){
+		puzzle = orden;
+		bipbip.volume = 0.1;
+		bipbip.play();
 		//alert("Ok! " + orden);
 	} else {
 		//alert("Err!");
-		pasito = 0;
-
+		puzzle = 0;
+		ufail.volume = 0.1;
+		ufail.play();
 	}
-	if(pasito == 4){
-		location.href ="MidtermPage2.html";
+	if(puzzle ==3){
+		location.href = nomeveas;
+	}
 }
+
+function fadeIn() {
+	$('.fade-in').each(function() {
+			var top_of_element = $(this).offset().top;
+			var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+			var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+			var top_of_screen = $(window).scrollTop();
+
+			if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && !$(this).hasClass('is-visible')) {
+					$(this).addClass('is-visible');
+			}
+	});
+}
+
+$(function() {
+		fadeIn();
+});
+
+$(window).scroll(function() {
+		fadeIn();
+});
