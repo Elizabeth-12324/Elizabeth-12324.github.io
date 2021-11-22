@@ -11,6 +11,6 @@ function makeDo(){
     console.log("You clicked the button!");
     theBody.style.backgroundColor = "green";
     theBody.style.color = "white"
-    thePara.textContent = "The Medium is the Massage"
+    location.href = newLink;
 
 }
