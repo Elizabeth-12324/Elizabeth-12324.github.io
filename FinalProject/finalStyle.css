@@ -4,93 +4,50 @@ body{
   display: grid;
   grid-gap: 1em;
 }
-#circle1{
-height: 25px;
-width: 25px;
-background-color: red;
-border-radius: 50%;
-position: absolute;
-top: 87px;
-left: 87px;
+
+.lineThrough{
+    text-decoration: line-through;
 }
-#circle2{
-  height: 25px;
-  width: 25px;
-  background-color: yellow;
-  border-radius: 50%;
-  position: absolute;
-  left: 57px;
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
 }
-#circle3{
-  height: 25px;
-  width: 25px;
-  background-color: green;
-  border-radius: 50%;
-  position: absolute;
-  left: 57px;
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: rgb(25,25,25);
 }
-#rectangle {
-  display: flex;
-  justify-content: center;
-  width: 1100px;
-  height: 60px;
-  background: grey;
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 280%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
 }
-#Quotes{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(255,255,255);
-  margin: 60px;
-  height:300px;
-  width:1100px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: grey;
+
+/* Animation Reference online */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
-#text{
-    font-size: 38px;
-    margin:80;
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
 }
-#rectangle2 {
-  display: flex;
-  justify-content: right;
-  width: 1100px;
-  height: 60px;
-  background: grey;
-}
-#Quotes2{
-  display: flex;
-  justify-content: right;
-  background-color: rgb(255,255,255);
-  margin: 60px;
-  height:300px;
-  width:1100px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: grey;
-}
-#circle4{
-height: 25px;
-width: 25px;
-background-color: red;
-border-radius: 50%;
-position: absolute;
-top: 450px;
-left: 87px;
-}
-#circle5{
-  height: 25px;
-  width: 25px;
-  background-color: yellow;
-  border-radius: 50%;
-  position: absolute;
-  left: 57px;
-}
-#circle6{
-  height: 25px;
-  width: 25px;
-  background-color: green;
-  border-radius: 50%;
-  position: absolute;
-  left: 57px;
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
