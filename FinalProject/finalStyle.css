@@ -4,7 +4,34 @@ body{
   display: grid;
   grid-gap: 1em;
 }
+button {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    margin-top: 60%;
+    width:30%;
+    font-size: 1vw;
+    color:white;
+    text-decoration: none;
+    left:50%;
+ }
+#buttons {
+  width: 40%;
+  height: 2vh;
+}
+#button1 {
+top: 80%;
+left: 15%;
+display: block;
+}
 
+#button2 {
+margin-top: 10%;
+left: 15%;
+display: none;
+
+}
 .lineThrough{
     text-decoration: line-through;
 }
