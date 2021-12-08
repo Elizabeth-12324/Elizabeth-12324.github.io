@@ -19,6 +19,10 @@ button1.addEventListener('click', increment);
 button2.addEventListener('click', increment);
 button3.addEventListener('click',increment);
 let incrementor = 1;
+var timeoutID = setTimeout(onButton[300, delay]);
+function onButton(){
+  button3.style.display="block"
+}
 function increment(){
 
     console.log("You clicked the button!");
@@ -29,7 +33,8 @@ function increment(){
     } else if (incrementor == 2) {
       button2.style.display = "none";
       button1.style.display = "none";
-			button3.style.display="block";
+      setTimeout(onButton, 25000);
+			//button3.style.display="block";
 
   }
  else if (incrementor == 3) {
