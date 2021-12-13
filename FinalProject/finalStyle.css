@@ -1,5 +1,4 @@
 body{
-  background-image:url("https://media.giphy.com/media/xT1XGRNZKFIzKqWnsc/giphy.gif");
   background-repeat:repeat;
   display: grid;
   grid-gap: 1em;
@@ -20,6 +19,19 @@ button {
   width: 40%;
   height: 2vh;
 }
+#arrow-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+#left-arrow {
+
+}
+#right-arrow {
+
+}
 #button1 {
 top: 80%;
 left: 15%;
@@ -38,8 +50,51 @@ left: 15%;
 display: none;
 }
 
+#button4 {
+top: 80%;
+left: 15%;
+display: none;
+}
+
+#button5{
+margin-top: 10%;
+left: 15%;
+display: none;
+}
+
+#button6 {
+margin-top: 10%;
+left: 15%;
+display: none;
+}
 .lineThrough{
     text-decoration: line-through;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;
+  background-color: #4268a5;
+}
+
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+p {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 600px;}
 }
 HTML CSSResult Skip Results Iframe
 EDIT ON
@@ -83,4 +138,54 @@ body{
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
 }
