@@ -1,4 +1,5 @@
 body{
+
   background-repeat:repeat;
   display: grid;
   grid-gap: 1em;
@@ -19,6 +20,7 @@ button {
   width: 40%;
   height: 2vh;
 }
+
 #arrow-box {
   display: flex;
   justify-content: space-between;
@@ -60,9 +62,15 @@ display: none;
 margin-top: 10%;
 left: 15%;
 display: none;
+color:red;
 }
 
 #button6 {
+margin-top: 10%;
+left: 15%;
+display: none;
+}
+#button7 {
 margin-top: 10%;
 left: 15%;
 display: none;
