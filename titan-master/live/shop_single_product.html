@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--
+    <!--  
     Document Title
     =============================================
     -->
     <title>Titan | Multipurpose HTML5 Template</title>
-    <!--
+    <!--  
     Favicons
     =============================================
     -->
@@ -30,10 +30,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!--
+    <!--  
     Stylesheets
     =============================================
-
+    
     -->
     <!-- Default stylesheets-->
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
       <div class="page-loader">
         <div class="loader">Loading...</div>
       </div>
-      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Titan</a>
@@ -355,156 +355,257 @@
           </div>
         </div>
       </nav>
-      <section class="home-section bg-dark-60 portfolio-page-header parallax-bg" id="home" data-background="assets/images/portfolio/portfolio_header_bg.jpg">
-        <div class="titan-caption">
-          <div class="caption-content">
-            <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
-            <div class="font-alt mb-40 titan-title-size-4">We are Titan</div><a class="section-scroll btn btn-border-w btn-round" href="#portfolio">Our Works</a>
-          </div>
-        </div>
-      </section>
       <div class="main">
-        <section class="module" id="portfolio">
+        <section class="module">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Illustration</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li>
+              <div class="col-sm-6 mb-sm-40"><a class="gallery" href="assets/images/shop/product-7.jpg"><img src="assets/images/shop/product-7.jpg" alt="Single Product Image"/></a>
+                <ul class="product-gallery">
+                  <li><a class="gallery" href="assets/images/shop/product-8.jpg"></a><img src="assets/images/shop/product-8.jpg" alt="Single Product"/></li>
+                  <li><a class="gallery" href="assets/images/shop/product-9.jpg"></a><img src="assets/images/shop/product-9.jpg" alt="Single Product"/></li>
+                  <li><a class="gallery" href="assets/images/shop/product-10.jpg"></a><img src="assets/images/shop/product-10.jpg" alt="Single Product"/></li>
                 </ul>
               </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h1 class="product-title font-alt">Accessories Pack</h1>
+                  </div>
+                </div>
+                <div class="row mb-20">
+                  <div class="col-sm-12"><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span><a class="open-tab section-scroll" href="#reviews">-2customer reviews</a>
+                  </div>
+                </div>
+                <div class="row mb-20">
+                  <div class="col-sm-12">
+                    <div class="price font-alt"><span class="amount">£20.00</span></div>
+                  </div>
+                </div>
+                <div class="row mb-20">
+                  <div class="col-sm-12">
+                    <div class="description">
+                      <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-20">
+                  <div class="col-sm-4 mb-sm-20">
+                    <input class="form-control input-lg" type="number" name="" value="1" max="40" min="1" required="required"/>
+                  </div>
+                  <div class="col-sm-8"><a class="btn btn-lg btn-block btn-round btn-b" href="#">Add To Cart</a></div>
+                </div>
+                <div class="row mb-20">
+                  <div class="col-sm-12">
+                    <div class="product_meta">Categories:<a href="#"> Man, </a><a href="#">Clothing, </a><a href="#">T-shirts</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul class="works-grid works-grid-masonry works-grid-3 works-hover-d" id="works-grid">
-              <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio1.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Corporate Identity</h3>
-                    <div class="work-descr">Illustration</div>
-                  </div></a></li>
-              <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio2.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Bag MockUp</h3>
-                    <div class="work-descr">Marketing</div>
-                  </div></a></li>
-              <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio3.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Disk Cover</h3>
-                    <div class="work-descr">Illustration</div>
-                  </div></a></li>
-              <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio4.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Business Card</h3>
-                    <div class="work-descr">Photography</div>
-                  </div></a></li>
-              <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio5.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Web Design</h3>
-                    <div class="work-descr">Webdesign</div>
-                  </div></a></li>
-              <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio6.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">New Product</h3>
-                    <div class="work-descr">Marketing</div>
-                  </div></a></li>
-              <li class="work-item marketing webdesign"><a href="portfolio_single_featured_image1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio7.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">New Product</h3>
-                    <div class="work-descr">Marketing</div>
-                  </div></a></li>
-              <li class="work-item marketing"><a href="portfolio_single_featured_slider1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio9.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Bottle MockUp</h3>
-                    <div class="work-descr">Marketing</div>
-                  </div></a></li>
-              <li class="work-item illustration photography"><a href="portfolio_single_featured_slider2.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio10.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Personal Identity</h3>
-                    <div class="work-descr">Photography</div>
-                  </div></a></li>
-              <li class="work-item illustration marketing"><a href="portfolio_single_featured_video1.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio11.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Business Card</h3>
-                    <div class="work-descr">Webdesign</div>
-                  </div></a></li>
-              <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image2.html">
-                  <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio8.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Paper Clip</h3>
-                    <div class="work-descr">Illustration</div>
-                  </div></a></li>
-            </ul>
-          </div>
-        </section>
-        <section class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3 text-center">
-                <h4 class="font-alt mb-20">Let's work together</h4><a class="btn btn-border-w" href="contact3.html">Contact Us</a>
+            <div class="row mt-70">
+              <div class="col-sm-12">
+                <ul class="nav nav-tabs font-alt" role="tablist">
+                  <li class="active"><a href="#description" data-toggle="tab"><span class="icon-tools-2"></span>Description</a></li>
+                  <li><a href="#data-sheet" data-toggle="tab"><span class="icon-tools-2"></span>Data sheet</a></li>
+                  <li><a href="#reviews" data-toggle="tab"><span class="icon-tools-2"></span>Reviews (2)</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="description">
+                    <p>Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
+                    <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                  </div>
+                  <div class="tab-pane" id="data-sheet">
+                    <table class="table table-striped ds-table table-responsive">
+                      <tbody>
+                        <tr>
+                          <th>Title</th>
+                          <th>Info</th>
+                        </tr>
+                        <tr>
+                          <td>Compositions</td>
+                          <td>Jeans</td>
+                        </tr>
+                        <tr>
+                          <td>Size</td>
+                          <td>44, 46, 48</td>
+                        </tr>
+                        <tr>
+                          <td>Color</td>
+                          <td>Black</td>
+                        </tr>
+                        <tr>
+                          <td>Brand</td>
+                          <td>Somebrand</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane" id="reviews">
+                    <div class="comments reviews">
+                      <div class="comment clearfix">
+                        <div class="comment-avatar"><img src="" alt="avatar"/></div>
+                        <div class="comment-content clearfix">
+                          <div class="comment-author font-alt"><a href="#">John Doe</a></div>
+                          <div class="comment-body">
+                            <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                          </div>
+                          <div class="comment-meta font-alt">Today, 14:55 -<span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment clearfix">
+                        <div class="comment-avatar"><img src="" alt="avatar"/></div>
+                        <div class="comment-content clearfix">
+                          <div class="comment-author font-alt"><a href="#">Mark Stone</a></div>
+                          <div class="comment-body">
+                            <p>Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                          </div>
+                          <div class="comment-meta font-alt">Today, 14:59 -<span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span><span><i class="fa fa-star star-off"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="comment-form mt-30">
+                      <h4 class="comment-form-title font-alt">Add review</h4>
+                      <form method="post">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <label class="sr-only" for="name">Name</label>
+                              <input class="form-control" id="name" type="text" name="name" placeholder="Name"/>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <label class="sr-only" for="email">Name</label>
+                              <input class="form-control" id="email" type="text" name="email" placeholder="E-mail"/>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <select class="form-control">
+                                <option selected="true" disabled="">Rating</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <textarea class="form-control" id="" name="" rows="4" placeholder="Review"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <button class="btn btn-round btn-d" type="submit">Submit Review</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="module" id="news">
+        <hr class="divider-w">
+        <section class="module-small">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest blog posts</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                <h2 class="module-title font-alt">Related Products</h2>
               </div>
             </div>
-            <div class="row multi-columns-row post-columns">
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/work-1.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Our trip to the Alps</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
-                    </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/shop/product-11.jpg" alt="Accessories Pack"/>
+                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                  <h4 class="shop-item-title font-alt"><a href="#">Accessories Pack</a></h4>£9.00
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/work-2.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
-                    </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/shop/product-12.jpg" alt="Men’s Casual Pack"/>
+                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                  <h4 class="shop-item-title font-alt"><a href="#">Men’s Casual Pack</a></h4>£12.00
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/work-3.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/shop/product-13.jpg" alt="Men’s Garb"/>
+                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="#">Men’s Garb</a></h4>£6.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/shop/product-14.jpg" alt="Cold Garb"/>
+                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="#">Cold Garb</a></h4>£14.00
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Exclusive products</h2>
+                <div class="module-subtitle font-serif">The languages only differ in their grammar, their pronunciation and their most common words.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-1.jpg" alt="Leather belt"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£12.00
                     </div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-3.jpg" alt="Derby shoes"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Derby shoes</a></h4>£54.00
+                    </div>
                   </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-2.jpg" alt="Leather belt"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-4.jpg" alt="Leather belt"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£14.00
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-5.jpg" alt="Chelsea boots"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Chelsea boots</a></h4>£44.00
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-6.jpg" alt="Leather belt"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -583,10 +684,10 @@
             </div>
           </div>
         </footer>
-        <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
       </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
-    <!--
+    <!--  
     JavaScripts
     =============================================
     -->
