@@ -891,6 +891,7 @@ blockquote {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 27px;
 }
 
 .font-serif {
