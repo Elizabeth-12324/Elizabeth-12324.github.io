@@ -9,7 +9,7 @@ html {
 
 body {
   background: #fff;
-  font: 400 12px/1.8 "Open Sans", sans-serif;
+  font: 400 14px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
@@ -43,7 +43,7 @@ iframe {
 /* Transition elsements */
 a,
 .btn {
-  transition: all 0.125s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .client-logo,
@@ -59,7 +59,7 @@ a,
 .post-thumbnail,
 .post-video,
 .post-images-slider {
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 /* Reset box-shadow */
@@ -160,16 +160,26 @@ a,
   z-index: 1;
 }
 
+
+/*controls the padding size */
 .module,
 .module-small {
   position: relative;
-  padding: 140px 0;
+  padding: 30px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
 
 /* Module header */
+
+.module-header {
+  position: relative;
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 .module-small {
   padding: 70px 0;
 }
@@ -214,7 +224,7 @@ a,
 /* Half-image */
 .side-image {
   position: absolute;
-  height: 120%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 /*  background-size: cover; */
@@ -873,7 +883,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 p, ol, ul, blockquote {
@@ -891,7 +901,7 @@ blockquote {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: px;
+  font-size: 19.6px;
 }
 
 .font-serif {
@@ -1013,13 +1023,13 @@ General Styles - FlexSlider
 .flex-direction-nav .flex-prev {
   opacity: 0;
   left: 0;
-  cursor: url(../images/prev-light.png), e-resize;
+  cursor: url(assets/images/prev-light.png), e-resize;
 }
 
 .flex-direction-nav .flex-next {
   opacity: 0;
   right: 0;
-  cursor: url(../images/next-light.png), e-resize;
+  cursor: url(assets/images/next-light.png), e-resize;
 }
 
 .flex-control-nav {
@@ -1477,7 +1487,9 @@ General Styles - Owlcarousel
 
 /* Portfolio Page Header */
 .portfolio-page-header {
+  padding: 140px 0;
   background-position: 50% 50%;
+  background-size: cover;
 }
 
 .portfolio-page-header:before {
