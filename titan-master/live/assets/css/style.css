@@ -1491,6 +1491,11 @@ General Styles - Owlcarousel
   background-position: 50% 50%;
   background-size: cover;
 }
+.portfolio-page-header-2 {
+  padding: 300px 0;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 
 .portfolio-page-header:before {
   background: rgba(45, 45, 45, 0.45);
