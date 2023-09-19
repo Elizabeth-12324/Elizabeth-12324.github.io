@@ -13,7 +13,16 @@ body {
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
+/*
+body2 {
+  background-color:#FFFFFF;
+  text-align: center;
+  color:#FFFFFF;
+  padding-top:10em;
+}
 
+* { color:#fff; text-decoration: none;}
+*/
 img {
   max-width: 100%;
   height: auto;
@@ -1402,12 +1411,12 @@ General Styles - Owlcarousel
 }
 
 .titan-title-size-3 {
-  letter-spacing: 16px;
-  font-size: 46px;
+  letter-spacing: 9px;
+  font-size: 40px;
 }
 
 .titan-title-size-4 {
-  letter-spacing: 24px;
+  letter-spacing: 15px;
   font-weight: 400;
   font-size: 48px;
 }
@@ -1419,7 +1428,7 @@ General Styles - Owlcarousel
 
 /* About us Page Header */
 .about-page-header:before {
-  background: rgba(2, 2, 2, 0.2);
+  background: rgba(2, 2, 2, 0.5);
 }
 
 /* Service Page Header */
@@ -1490,6 +1499,13 @@ General Styles - Owlcarousel
   padding: 140px 0;
   background-position: 50% 50%;
   background-size: cover;
+
+}
+.portfolio-page-header-new {
+  border: 2px solid black;
+padding: 25px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .portfolio-page-header-2 {
   padding: 300px 0;
@@ -1958,7 +1974,7 @@ Google map
 }
 
 .work-descr {
-  color: #aaa;
+  color: #000;
 }
 
 .work-item:hover .work-image:after {
@@ -2775,7 +2791,7 @@ Google map
   /* Headers */
   .titan-title-size-3 {
     letter-spacing: 8px;
-    font-size: 36px;
+    font-size: 25px;
   }
   .titan-title-size-4 {
     letter-spacing: 12px;
