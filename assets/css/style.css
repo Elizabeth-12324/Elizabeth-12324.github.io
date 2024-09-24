@@ -1513,6 +1513,17 @@ padding: 25px;
   background-size: cover;
 }
 
+.portfolio-page-header-3 {
+  padding: 140px 0;
+  background-position: 50% 50%;
+  background-size: contain;
+
+}
+.portfolio-page-header-4 {
+  padding: 140px 0;
+  background-position: 50% 60%;
+  background-size: cover;
+}
 .portfolio-page-header:before {
   background: rgba(45, 45, 45, 0.45);
 }
